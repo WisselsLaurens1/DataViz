@@ -33,6 +33,19 @@ app.get("/data/:path", (req, res) => {
   }
 });
 
+app.get("/json", (req, res) => {
+  fs.readFile('../data/data.json', 'utf8', (err, data) => {
+    if (err) {
+      return res.status(400).json({ error: "Failed to retrieve data" });
+    }
+    try {
+      const jsonData = JSON.parse(data);
+      return res.json(jsonData);
+    } catch (error) {
+      return res.status(400).json({ error: "Failed to retrieve data" });    }
+  });
+})
+
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
