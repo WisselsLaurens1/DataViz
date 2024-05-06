@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sveltejs/adapter-auto": "^3.2.0",
     "cors": "^2.8.5",
-    "csv-parser": "^3.0.0"
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.2",
+    "framework7-svelte": "^8.3.3"
   }
 }
