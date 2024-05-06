@@ -11,6 +11,7 @@ export const load = async ({ fetch }: any) => {
 
   const response = await fetch(URL);
   const data = await response.json();
+  console.log(data)
   return {
     result: data["average_delay_of_sales_per_month"]
   };
