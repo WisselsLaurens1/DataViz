@@ -13,7 +13,9 @@
     "@sveltejs/adapter-auto": "^3.2.0",
     "cors": "^2.8.5",
     "csv-parser": "^3.0.0",
+    "d3": "^3.5.17",
     "express": "^4.19.2",
+    "flowbite-svelte": "^0.46.1",
     "framework7-svelte": "^8.3.3"
   }
 }

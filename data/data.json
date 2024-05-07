@@ -47,5 +47,3064 @@
       "02": -2.97737556561086,
       "03": -14.0
     }
+  },
+  "boxplot_inventory_per_plant":{
+    "10004": [
+      1403.1012,
+      1727.6722765397,
+      1856.557414103765,
+      2386.22526729756,
+      3142.26710380237
+    ],
+    "10005": [
+      288.441246231379,
+      394.9936178036592,
+      476.90492797920854,
+      650.7217009098,
+      857.52
+    ],
+    "10006": [
+      233.384011535385,
+      410.11315505867327,
+      615.4727367089336,
+      988.538103282085,
+      1543.0
+    ],
+    "10007": [
+      44.0472769068453,
+      51.21276668578712,
+      66.1105084473503,
+      84.884261644665,
+      105.0
+    ],
+    "10008": [
+      454.132315235362,
+      534.767293893413,
+      597.86827996061,
+      682.4665902929972,
+      822.4
+    ],
+    "20004": [
+      108.109434940401,
+      147.55083888845175,
+      243.56136518244648,
+      368.04751751126025,
+      656.98
+    ],
+    "20005": [
+      212.907535555855,
+      256.2671132109315,
+      279.3310646747565,
+      328.1548918935265,
+      388.530607649499
+    ],
+    "20006": [
+      333.357308116413,
+      474.2714158110825,
+      615.076156556274,
+      674.6250225,
+      744.537602127
+    ],
+    "20007": [
+      11.6025455818555,
+      17.711246563298,
+      19.700567648284853,
+      22.137493653091873,
+      26.127106416
+    ],
+    "20008": [
+      442.238103357664,
+      545.6990769295937,
+      633.767036127019,
+      730.7148313627824,
+      800.267717723478
+    ]
+  },
+  "difference_between_forecast_and_sales":
+  {
+    "2022": {
+      "1": {
+        "4": {
+          "1": {
+            "difference": -12,
+            "forecast": 15978,
+            "sales": 15990
+          },
+          "2": {
+            "difference": -671,
+            "forecast": 3710,
+            "sales": 4381
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -2977,
+            "forecast": 5360,
+            "sales": 8337
+          },
+          "2": {
+            "difference": -533,
+            "forecast": 1465,
+            "sales": 1998
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -3284,
+            "forecast": 5170,
+            "sales": 8454
+          },
+          "2": {
+            "difference": -372,
+            "forecast": 1970,
+            "sales": 2342
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -85,
+            "forecast": 180,
+            "sales": 265
+          },
+          "2": {
+            "difference": -43,
+            "forecast": 11,
+            "sales": 54
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 148,
+            "forecast": 6966,
+            "sales": 6818
+          },
+          "2": {
+            "difference": 66,
+            "forecast": 1746,
+            "sales": 1680
+          }
+        }
+      },
+      "2": {
+        "4": {
+          "1": {
+            "difference": -5725,
+            "forecast": 9854,
+            "sales": 15579
+          },
+          "2": {
+            "difference": -686,
+            "forecast": 3463,
+            "sales": 4149
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -2998,
+            "forecast": 4008,
+            "sales": 7006
+          },
+          "2": {
+            "difference": -323,
+            "forecast": 1624,
+            "sales": 1947
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -816,
+            "forecast": 7278,
+            "sales": 8094
+          },
+          "2": {
+            "difference": -96,
+            "forecast": 1891,
+            "sales": 1987
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -11,
+            "forecast": 272,
+            "sales": 283
+          },
+          "2": {
+            "difference": -64,
+            "forecast": 74,
+            "sales": 138
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -928,
+            "forecast": 5614,
+            "sales": 6542
+          },
+          "2": {
+            "difference": -58,
+            "forecast": 1334,
+            "sales": 1392
+          }
+        }
+      },
+      "3": {
+        "4": {
+          "1": {
+            "difference": 57,
+            "forecast": 16554,
+            "sales": 16497
+          },
+          "2": {
+            "difference": -1237,
+            "forecast": 3144,
+            "sales": 4381
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -516,
+            "forecast": 7585,
+            "sales": 8101
+          },
+          "2": {
+            "difference": -495,
+            "forecast": 1288,
+            "sales": 1783
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -1078,
+            "forecast": 7715,
+            "sales": 8793
+          },
+          "2": {
+            "difference": -436,
+            "forecast": 1782,
+            "sales": 2218
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -175,
+            "forecast": 140,
+            "sales": 315
+          },
+          "2": {
+            "difference": -34,
+            "forecast": 40,
+            "sales": 74
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1270,
+            "forecast": 5714,
+            "sales": 6984
+          },
+          "2": {
+            "difference": -847,
+            "forecast": 1176,
+            "sales": 2023
+          }
+        }
+      },
+      "4": {
+        "4": {
+          "1": {
+            "difference": 715,
+            "forecast": 17272,
+            "sales": 16557
+          },
+          "2": {
+            "difference": -1067,
+            "forecast": 3044,
+            "sales": 4111
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -2770,
+            "forecast": 4644,
+            "sales": 7414
+          },
+          "2": {
+            "difference": -473,
+            "forecast": 1473,
+            "sales": 1946
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -1706,
+            "forecast": 7276,
+            "sales": 8982
+          },
+          "2": {
+            "difference": -575,
+            "forecast": 1737,
+            "sales": 2312
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -70,
+            "forecast": 177,
+            "sales": 247
+          },
+          "2": {
+            "difference": -13,
+            "forecast": 48,
+            "sales": 61
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -920,
+            "forecast": 6007,
+            "sales": 6927
+          },
+          "2": {
+            "difference": -48,
+            "forecast": 1503,
+            "sales": 1551
+          }
+        }
+      },
+      "5": {
+        "4": {
+          "1": {
+            "difference": -3618,
+            "forecast": 13967,
+            "sales": 17585
+          },
+          "2": {
+            "difference": 487,
+            "forecast": 4946,
+            "sales": 4459
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -2580,
+            "forecast": 5308,
+            "sales": 7888
+          },
+          "2": {
+            "difference": -26,
+            "forecast": 1918,
+            "sales": 1944
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -3080,
+            "forecast": 6284,
+            "sales": 9364
+          },
+          "2": {
+            "difference": -678,
+            "forecast": 1850,
+            "sales": 2528
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -34,
+            "forecast": 236,
+            "sales": 270
+          },
+          "2": {
+            "difference": -37,
+            "forecast": 54,
+            "sales": 91
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -386,
+            "forecast": 6788,
+            "sales": 7174
+          },
+          "2": {
+            "difference": -835,
+            "forecast": 1257,
+            "sales": 2092
+          }
+        }
+      },
+      "6": {
+        "4": {
+          "1": {
+            "difference": 177,
+            "forecast": 17042,
+            "sales": 16865
+          },
+          "2": {
+            "difference": -227,
+            "forecast": 3683,
+            "sales": 3910
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -1638,
+            "forecast": 5642,
+            "sales": 7280
+          },
+          "2": {
+            "difference": -319,
+            "forecast": 1417,
+            "sales": 1736
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 352,
+            "forecast": 9220,
+            "sales": 8868
+          },
+          "2": {
+            "difference": -767,
+            "forecast": 1680,
+            "sales": 2447
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -96,
+            "forecast": 197,
+            "sales": 293
+          },
+          "2": {
+            "difference": 46,
+            "forecast": 46,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1353,
+            "forecast": 5665,
+            "sales": 7018
+          },
+          "2": {
+            "difference": -30,
+            "forecast": 1508,
+            "sales": 1538
+          }
+        }
+      },
+      "7": {
+        "4": {
+          "1": {
+            "difference": -6350,
+            "forecast": 11054,
+            "sales": 17404
+          },
+          "2": {
+            "difference": 708,
+            "forecast": 4738,
+            "sales": 4030
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -1926,
+            "forecast": 5968,
+            "sales": 7894
+          },
+          "2": {
+            "difference": -297,
+            "forecast": 1509,
+            "sales": 1806
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 654,
+            "forecast": 9508,
+            "sales": 8854
+          },
+          "2": {
+            "difference": -292,
+            "forecast": 2058,
+            "sales": 2350
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -80,
+            "forecast": 124,
+            "sales": 204
+          },
+          "2": {
+            "difference": 41,
+            "forecast": 131,
+            "sales": 90
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -2398,
+            "forecast": 4711,
+            "sales": 7109
+          },
+          "2": {
+            "difference": -439,
+            "forecast": 1322,
+            "sales": 1761
+          }
+        }
+      },
+      "8": {
+        "4": {
+          "1": {
+            "difference": -3927,
+            "forecast": 11945,
+            "sales": 15872
+          },
+          "2": {
+            "difference": -489,
+            "forecast": 3677,
+            "sales": 4166
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -2037,
+            "forecast": 5956,
+            "sales": 7993
+          },
+          "2": {
+            "difference": 99,
+            "forecast": 1729,
+            "sales": 1630
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -1066,
+            "forecast": 7605,
+            "sales": 8671
+          },
+          "2": {
+            "difference": -715,
+            "forecast": 1719,
+            "sales": 2434
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 9,
+            "forecast": 187,
+            "sales": 178
+          },
+          "2": {
+            "difference": -57,
+            "forecast": 31,
+            "sales": 88
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1340,
+            "forecast": 5478,
+            "sales": 6818
+          },
+          "2": {
+            "difference": 114,
+            "forecast": 1898,
+            "sales": 1784
+          }
+        }
+      },
+      "9": {
+        "4": {
+          "1": {
+            "difference": 1321,
+            "forecast": 17064,
+            "sales": 15743
+          },
+          "2": {
+            "difference": -1343,
+            "forecast": 2361,
+            "sales": 3704
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -134,
+            "forecast": 7006,
+            "sales": 7140
+          },
+          "2": {
+            "difference": 226,
+            "forecast": 1947,
+            "sales": 1721
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -1289,
+            "forecast": 7225,
+            "sales": 8514
+          },
+          "2": {
+            "difference": -796,
+            "forecast": 1438,
+            "sales": 2234
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -124,
+            "forecast": 243,
+            "sales": 367
+          },
+          "2": {
+            "difference": -42,
+            "forecast": 31,
+            "sales": 73
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1958,
+            "forecast": 4924,
+            "sales": 6882
+          },
+          "2": {
+            "difference": -184,
+            "forecast": 1509,
+            "sales": 1693
+          }
+        }
+      },
+      "10": {
+        "4": {
+          "1": {
+            "difference": 1635,
+            "forecast": 16638,
+            "sales": 15003
+          },
+          "2": {
+            "difference": -703,
+            "forecast": 3452,
+            "sales": 4155
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -222,
+            "forecast": 7514,
+            "sales": 7736
+          },
+          "2": {
+            "difference": -286,
+            "forecast": 1650,
+            "sales": 1936
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -548,
+            "forecast": 8416,
+            "sales": 8964
+          },
+          "2": {
+            "difference": 295,
+            "forecast": 2666,
+            "sales": 2371
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -20,
+            "forecast": 290,
+            "sales": 310
+          },
+          "2": {
+            "difference": 47,
+            "forecast": 64,
+            "sales": 17
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -352,
+            "forecast": 6201,
+            "sales": 6553
+          },
+          "2": {
+            "difference": 388,
+            "forecast": 2177,
+            "sales": 1789
+          }
+        }
+      },
+      "11": {
+        "4": {
+          "1": {
+            "difference": 1224,
+            "forecast": 16961,
+            "sales": 15737
+          },
+          "2": {
+            "difference": -36,
+            "forecast": 4107,
+            "sales": 4143
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -885,
+            "forecast": 6511,
+            "sales": 7396
+          },
+          "2": {
+            "difference": -381,
+            "forecast": 1501,
+            "sales": 1882
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -108,
+            "forecast": 7629,
+            "sales": 7737
+          },
+          "2": {
+            "difference": -673,
+            "forecast": 1376,
+            "sales": 2049
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -159,
+            "forecast": 129,
+            "sales": 288
+          },
+          "2": {
+            "difference": -41,
+            "forecast": 9,
+            "sales": 50
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1504,
+            "forecast": 5466,
+            "sales": 6970
+          },
+          "2": {
+            "difference": -251,
+            "forecast": 1367,
+            "sales": 1618
+          }
+        }
+      },
+      "12": {
+        "4": {
+          "1": {
+            "difference": -1785,
+            "forecast": 15384,
+            "sales": 17169
+          },
+          "2": {
+            "difference": -853,
+            "forecast": 3638,
+            "sales": 4491
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -1573,
+            "forecast": 5957,
+            "sales": 7530
+          },
+          "2": {
+            "difference": -545,
+            "forecast": 1237,
+            "sales": 1782
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -822,
+            "forecast": 8412,
+            "sales": 9234
+          },
+          "2": {
+            "difference": -410,
+            "forecast": 1718,
+            "sales": 2128
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -281,
+            "forecast": 85,
+            "sales": 366
+          },
+          "2": {
+            "difference": 3,
+            "forecast": 50,
+            "sales": 47
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -834,
+            "forecast": 6975,
+            "sales": 7809
+          },
+          "2": {
+            "difference": 40,
+            "forecast": 1815,
+            "sales": 1775
+          }
+        }
+      }
+    },
+    "2023": {
+      "1": {
+        "4": {
+          "1": {
+            "difference": 2215,
+            "forecast": 18831,
+            "sales": 16616
+          },
+          "2": {
+            "difference": -1066,
+            "forecast": 3159,
+            "sales": 4225
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -1987,
+            "forecast": 5975,
+            "sales": 7962
+          },
+          "2": {
+            "difference": 62,
+            "forecast": 1878,
+            "sales": 1816
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 389,
+            "forecast": 9708,
+            "sales": 9319
+          },
+          "2": {
+            "difference": 392,
+            "forecast": 2410,
+            "sales": 2018
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -94,
+            "forecast": 154,
+            "sales": 248
+          },
+          "2": {
+            "difference": 86,
+            "forecast": 143,
+            "sales": 57
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 729,
+            "forecast": 8045,
+            "sales": 7316
+          },
+          "2": {
+            "difference": 325,
+            "forecast": 1866,
+            "sales": 1541
+          }
+        }
+      },
+      "2": {
+        "4": {
+          "1": {
+            "difference": -2476,
+            "forecast": 12752,
+            "sales": 15228
+          },
+          "2": {
+            "difference": -45,
+            "forecast": 3643,
+            "sales": 3688
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -1418,
+            "forecast": 5620,
+            "sales": 7038
+          },
+          "2": {
+            "difference": -303,
+            "forecast": 1579,
+            "sales": 1882
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -819,
+            "forecast": 7977,
+            "sales": 8796
+          },
+          "2": {
+            "difference": -17,
+            "forecast": 2074,
+            "sales": 2091
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 115,
+            "forecast": 256,
+            "sales": 141
+          },
+          "2": {
+            "difference": 29,
+            "forecast": 101,
+            "sales": 72
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1673,
+            "forecast": 5309,
+            "sales": 6982
+          },
+          "2": {
+            "difference": 206,
+            "forecast": 1484,
+            "sales": 1278
+          }
+        }
+      },
+      "3": {
+        "4": {
+          "1": {
+            "difference": 2108,
+            "forecast": 19483,
+            "sales": 17375
+          },
+          "2": {
+            "difference": -74,
+            "forecast": 4233,
+            "sales": 4307
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 1255,
+            "forecast": 8964,
+            "sales": 7709
+          },
+          "2": {
+            "difference": 568,
+            "forecast": 2237,
+            "sales": 1669
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -1943,
+            "forecast": 7619,
+            "sales": 9562
+          },
+          "2": {
+            "difference": -462,
+            "forecast": 1907,
+            "sales": 2369
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 105,
+            "forecast": 374,
+            "sales": 269
+          },
+          "2": {
+            "difference": 8,
+            "forecast": 87,
+            "sales": 79
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -836,
+            "forecast": 6375,
+            "sales": 7211
+          },
+          "2": {
+            "difference": 3,
+            "forecast": 1750,
+            "sales": 1747
+          }
+        }
+      },
+      "4": {
+        "4": {
+          "1": {
+            "difference": -1610,
+            "forecast": 15233,
+            "sales": 16843
+          },
+          "2": {
+            "difference": -448,
+            "forecast": 3713,
+            "sales": 4161
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -550,
+            "forecast": 6667,
+            "sales": 7217
+          },
+          "2": {
+            "difference": 358,
+            "forecast": 2104,
+            "sales": 1746
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 1283,
+            "forecast": 9720,
+            "sales": 8437
+          },
+          "2": {
+            "difference": -167,
+            "forecast": 2062,
+            "sales": 2229
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -105,
+            "forecast": 129,
+            "sales": 234
+          },
+          "2": {
+            "difference": -35,
+            "forecast": 57,
+            "sales": 92
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 133,
+            "forecast": 7447,
+            "sales": 7314
+          },
+          "2": {
+            "difference": 246,
+            "forecast": 1969,
+            "sales": 1723
+          }
+        }
+      },
+      "5": {
+        "4": {
+          "1": {
+            "difference": 829,
+            "forecast": 16759,
+            "sales": 15930
+          },
+          "2": {
+            "difference": -712,
+            "forecast": 4075,
+            "sales": 4787
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -1149,
+            "forecast": 7208,
+            "sales": 8357
+          },
+          "2": {
+            "difference": -39,
+            "forecast": 2004,
+            "sales": 2043
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -905,
+            "forecast": 7879,
+            "sales": 8784
+          },
+          "2": {
+            "difference": -204,
+            "forecast": 1716,
+            "sales": 1920
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 30,
+            "forecast": 263,
+            "sales": 233
+          },
+          "2": {
+            "difference": -5,
+            "forecast": 48,
+            "sales": 53
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1425,
+            "forecast": 6100,
+            "sales": 7525
+          },
+          "2": {
+            "difference": -841,
+            "forecast": 1314,
+            "sales": 2155
+          }
+        }
+      },
+      "6": {
+        "4": {
+          "1": {
+            "difference": 2535,
+            "forecast": 18299,
+            "sales": 15764
+          },
+          "2": {
+            "difference": -477,
+            "forecast": 3854,
+            "sales": 4331
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -510,
+            "forecast": 7050,
+            "sales": 7560
+          },
+          "2": {
+            "difference": -343,
+            "forecast": 1735,
+            "sales": 2078
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -415,
+            "forecast": 8001,
+            "sales": 8416
+          },
+          "2": {
+            "difference": -528,
+            "forecast": 1701,
+            "sales": 2229
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -9,
+            "forecast": 300,
+            "sales": 309
+          },
+          "2": {
+            "difference": 19,
+            "forecast": 102,
+            "sales": 83
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -24,
+            "forecast": 6674,
+            "sales": 6698
+          },
+          "2": {
+            "difference": 822,
+            "forecast": 2252,
+            "sales": 1430
+          }
+        }
+      },
+      "7": {
+        "4": {
+          "1": {
+            "difference": -60,
+            "forecast": 16895,
+            "sales": 16955
+          },
+          "2": {
+            "difference": -522,
+            "forecast": 3820,
+            "sales": 4342
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -764,
+            "forecast": 6433,
+            "sales": 7197
+          },
+          "2": {
+            "difference": 20,
+            "forecast": 2032,
+            "sales": 2012
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 353,
+            "forecast": 9149,
+            "sales": 8796
+          },
+          "2": {
+            "difference": 1017,
+            "forecast": 2950,
+            "sales": 1933
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -139,
+            "forecast": 140,
+            "sales": 279
+          },
+          "2": {
+            "difference": -2,
+            "forecast": 34,
+            "sales": 36
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -702,
+            "forecast": 5933,
+            "sales": 6635
+          },
+          "2": {
+            "difference": -237,
+            "forecast": 1688,
+            "sales": 1925
+          }
+        }
+      },
+      "8": {
+        "4": {
+          "1": {
+            "difference": 3074,
+            "forecast": 19235,
+            "sales": 16161
+          },
+          "2": {
+            "difference": 201,
+            "forecast": 3892,
+            "sales": 3691
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 1016,
+            "forecast": 8503,
+            "sales": 7487
+          },
+          "2": {
+            "difference": 809,
+            "forecast": 2566,
+            "sales": 1757
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 298,
+            "forecast": 9177,
+            "sales": 8879
+          },
+          "2": {
+            "difference": 354,
+            "forecast": 2539,
+            "sales": 2185
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -24,
+            "forecast": 193,
+            "sales": 217
+          },
+          "2": {
+            "difference": 50,
+            "forecast": 105,
+            "sales": 55
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -198,
+            "forecast": 6167,
+            "sales": 6365
+          },
+          "2": {
+            "difference": -160,
+            "forecast": 1627,
+            "sales": 1787
+          }
+        }
+      },
+      "9": {
+        "4": {
+          "1": {
+            "difference": -184,
+            "forecast": 16193,
+            "sales": 16377
+          },
+          "2": {
+            "difference": 592,
+            "forecast": 4689,
+            "sales": 4097
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 154,
+            "forecast": 7990,
+            "sales": 7836
+          },
+          "2": {
+            "difference": 578,
+            "forecast": 2326,
+            "sales": 1748
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -962,
+            "forecast": 8277,
+            "sales": 9239
+          },
+          "2": {
+            "difference": -187,
+            "forecast": 1875,
+            "sales": 2062
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -81,
+            "forecast": 182,
+            "sales": 263
+          },
+          "2": {
+            "difference": 32,
+            "forecast": 69,
+            "sales": 37
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 404,
+            "forecast": 7100,
+            "sales": 6696
+          },
+          "2": {
+            "difference": 311,
+            "forecast": 2211,
+            "sales": 1900
+          }
+        }
+      },
+      "10": {
+        "4": {
+          "1": {
+            "difference": -362,
+            "forecast": 15857,
+            "sales": 16219
+          },
+          "2": {
+            "difference": -832,
+            "forecast": 3310,
+            "sales": 4142
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -603,
+            "forecast": 6901,
+            "sales": 7504
+          },
+          "2": {
+            "difference": 457,
+            "forecast": 1937,
+            "sales": 1480
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 1226,
+            "forecast": 9718,
+            "sales": 8492
+          },
+          "2": {
+            "difference": 49,
+            "forecast": 2236,
+            "sales": 2187
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -142,
+            "forecast": 157,
+            "sales": 299
+          },
+          "2": {
+            "difference": -42,
+            "forecast": 14,
+            "sales": 56
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1058,
+            "forecast": 5856,
+            "sales": 6914
+          },
+          "2": {
+            "difference": 27,
+            "forecast": 1612,
+            "sales": 1585
+          }
+        }
+      },
+      "11": {
+        "4": {
+          "1": {
+            "difference": -460,
+            "forecast": 16050,
+            "sales": 16510
+          },
+          "2": {
+            "difference": -949,
+            "forecast": 3429,
+            "sales": 4378
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 846,
+            "forecast": 8052,
+            "sales": 7206
+          },
+          "2": {
+            "difference": -259,
+            "forecast": 1598,
+            "sales": 1857
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -1540,
+            "forecast": 7227,
+            "sales": 8767
+          },
+          "2": {
+            "difference": -117,
+            "forecast": 2291,
+            "sales": 2408
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -145,
+            "forecast": 150,
+            "sales": 295
+          },
+          "2": {
+            "difference": 33,
+            "forecast": 61,
+            "sales": 28
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -303,
+            "forecast": 6478,
+            "sales": 6781
+          },
+          "2": {
+            "difference": 214,
+            "forecast": 1969,
+            "sales": 1755
+          }
+        }
+      },
+      "12": {
+        "4": {
+          "1": {
+            "difference": 1928,
+            "forecast": 18020,
+            "sales": 16092
+          },
+          "2": {
+            "difference": 337,
+            "forecast": 4091,
+            "sales": 3754
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -985,
+            "forecast": 7198,
+            "sales": 8183
+          },
+          "2": {
+            "difference": 635,
+            "forecast": 2330,
+            "sales": 1695
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 1047,
+            "forecast": 10359,
+            "sales": 9312
+          },
+          "2": {
+            "difference": 483,
+            "forecast": 2509,
+            "sales": 2026
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 54,
+            "forecast": 269,
+            "sales": 215
+          },
+          "2": {
+            "difference": 8,
+            "forecast": 74,
+            "sales": 66
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 1798,
+            "forecast": 8598,
+            "sales": 6800
+          },
+          "2": {
+            "difference": 711,
+            "forecast": 2364,
+            "sales": 1653
+          }
+        }
+      }
+    },
+    "2024": {
+      "1": {
+        "4": {
+          "1": {
+            "difference": 2194,
+            "forecast": 19689,
+            "sales": 17495
+          },
+          "2": {
+            "difference": 1006,
+            "forecast": 5112,
+            "sales": 4106
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -916,
+            "forecast": 6517,
+            "sales": 7433
+          },
+          "2": {
+            "difference": 238,
+            "forecast": 2247,
+            "sales": 2009
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 294,
+            "forecast": 9316,
+            "sales": 9022
+          },
+          "2": {
+            "difference": -577,
+            "forecast": 1701,
+            "sales": 2278
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 6,
+            "forecast": 310,
+            "sales": 304
+          },
+          "2": {
+            "difference": -18,
+            "forecast": 55,
+            "sales": 73
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1129,
+            "forecast": 6289,
+            "sales": 7418
+          },
+          "2": {
+            "difference": 796,
+            "forecast": 2800,
+            "sales": 2004
+          }
+        }
+      },
+      "2": {
+        "4": {
+          "1": {
+            "difference": 2125,
+            "forecast": 17453,
+            "sales": 15328
+          },
+          "2": {
+            "difference": -1486,
+            "forecast": 3229,
+            "sales": 4715
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 772,
+            "forecast": 7957,
+            "sales": 7185
+          },
+          "2": {
+            "difference": 494,
+            "forecast": 2024,
+            "sales": 1530
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 2833,
+            "forecast": 10924,
+            "sales": 8091
+          },
+          "2": {
+            "difference": 575,
+            "forecast": 2776,
+            "sales": 2201
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -15,
+            "forecast": 159,
+            "sales": 174
+          },
+          "2": {
+            "difference": -2,
+            "forecast": 31,
+            "sales": 33
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 751,
+            "forecast": 7191,
+            "sales": 6440
+          },
+          "2": {
+            "difference": 294,
+            "forecast": 2072,
+            "sales": 1778
+          }
+        }
+      },
+      "3": {
+        "4": {
+          "1": {
+            "difference": -609,
+            "forecast": 15768,
+            "sales": 16377
+          },
+          "2": {
+            "difference": 1145,
+            "forecast": 4741,
+            "sales": 3596
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 473,
+            "forecast": 8351,
+            "sales": 7878
+          },
+          "2": {
+            "difference": 40,
+            "forecast": 1593,
+            "sales": 1553
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 1775,
+            "forecast": 11030,
+            "sales": 9255
+          },
+          "2": {
+            "difference": 732,
+            "forecast": 3116,
+            "sales": 2384
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 42,
+            "forecast": 173,
+            "sales": 131
+          },
+          "2": {
+            "difference": 42,
+            "forecast": 76,
+            "sales": 34
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -373,
+            "forecast": 7183,
+            "sales": 7556
+          },
+          "2": {
+            "difference": -193,
+            "forecast": 1596,
+            "sales": 1789
+          }
+        }
+      },
+      "4": {
+        "4": {
+          "1": {
+            "difference": 3304,
+            "forecast": 19512,
+            "sales": 16208
+          },
+          "2": {
+            "difference": 179,
+            "forecast": 3913,
+            "sales": 3734
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 283,
+            "forecast": 7590,
+            "sales": 7307
+          },
+          "2": {
+            "difference": 111,
+            "forecast": 2084,
+            "sales": 1973
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 880,
+            "forecast": 9297,
+            "sales": 8417
+          },
+          "2": {
+            "difference": -260,
+            "forecast": 1861,
+            "sales": 2121
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 7,
+            "forecast": 137,
+            "sales": 130
+          },
+          "2": {
+            "difference": 21,
+            "forecast": 74,
+            "sales": 53
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 237,
+            "forecast": 7276,
+            "sales": 7039
+          },
+          "2": {
+            "difference": 641,
+            "forecast": 2399,
+            "sales": 1758
+          }
+        }
+      },
+      "5": {
+        "4": {
+          "1": {
+            "difference": -399,
+            "forecast": 16559,
+            "sales": 16958
+          },
+          "2": {
+            "difference": 1056,
+            "forecast": 5212,
+            "sales": 4156
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 657,
+            "forecast": 8251,
+            "sales": 7594
+          },
+          "2": {
+            "difference": -222,
+            "forecast": 1725,
+            "sales": 1947
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 2239,
+            "forecast": 11029,
+            "sales": 8790
+          },
+          "2": {
+            "difference": 17,
+            "forecast": 2489,
+            "sales": 2472
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -8,
+            "forecast": 226,
+            "sales": 234
+          },
+          "2": {
+            "difference": -3,
+            "forecast": 52,
+            "sales": 55
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -162,
+            "forecast": 6872,
+            "sales": 7034
+          },
+          "2": {
+            "difference": -304,
+            "forecast": 1454,
+            "sales": 1758
+          }
+        }
+      },
+      "6": {
+        "4": {
+          "1": {
+            "difference": 2193,
+            "forecast": 17233,
+            "sales": 15040
+          },
+          "2": {
+            "difference": 161,
+            "forecast": 4720,
+            "sales": 4559
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 1396,
+            "forecast": 9559,
+            "sales": 8163
+          },
+          "2": {
+            "difference": 76,
+            "forecast": 1934,
+            "sales": 1858
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -1089,
+            "forecast": 7557,
+            "sales": 8646
+          },
+          "2": {
+            "difference": -254,
+            "forecast": 1869,
+            "sales": 2123
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 45,
+            "forecast": 247,
+            "sales": 202
+          },
+          "2": {
+            "difference": -7,
+            "forecast": 54,
+            "sales": 61
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1486,
+            "forecast": 5448,
+            "sales": 6934
+          },
+          "2": {
+            "difference": -13,
+            "forecast": 1714,
+            "sales": 1727
+          }
+        }
+      },
+      "7": {
+        "4": {
+          "1": {
+            "difference": 3006,
+            "forecast": 19409,
+            "sales": 16403
+          },
+          "2": {
+            "difference": 883,
+            "forecast": 5051,
+            "sales": 4168
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 112,
+            "forecast": 8192,
+            "sales": 8080
+          },
+          "2": {
+            "difference": 198,
+            "forecast": 2026,
+            "sales": 1828
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 3276,
+            "forecast": 11851,
+            "sales": 8575
+          },
+          "2": {
+            "difference": -417,
+            "forecast": 1869,
+            "sales": 2286
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -118,
+            "forecast": 174,
+            "sales": 292
+          },
+          "2": {
+            "difference": -58,
+            "forecast": 92,
+            "sales": 150
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 1005,
+            "forecast": 7320,
+            "sales": 6315
+          },
+          "2": {
+            "difference": -77,
+            "forecast": 1917,
+            "sales": 1994
+          }
+        }
+      },
+      "8": {
+        "4": {
+          "1": {
+            "difference": 420,
+            "forecast": 16022,
+            "sales": 15602
+          },
+          "2": {
+            "difference": 1736,
+            "forecast": 5674,
+            "sales": 3938
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 2233,
+            "forecast": 10299,
+            "sales": 8066
+          },
+          "2": {
+            "difference": 659,
+            "forecast": 2541,
+            "sales": 1882
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -368,
+            "forecast": 8526,
+            "sales": 8894
+          },
+          "2": {
+            "difference": 895,
+            "forecast": 2822,
+            "sales": 1927
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 94,
+            "forecast": 249,
+            "sales": 155
+          },
+          "2": {
+            "difference": 78,
+            "forecast": 113,
+            "sales": 35
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -1319,
+            "forecast": 5972,
+            "sales": 7291
+          },
+          "2": {
+            "difference": 149,
+            "forecast": 2054,
+            "sales": 1905
+          }
+        }
+      },
+      "9": {
+        "4": {
+          "1": {
+            "difference": -136,
+            "forecast": 16533,
+            "sales": 16669
+          },
+          "2": {
+            "difference": -148,
+            "forecast": 4202,
+            "sales": 4350
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -405,
+            "forecast": 7725,
+            "sales": 8130
+          },
+          "2": {
+            "difference": 515,
+            "forecast": 2263,
+            "sales": 1748
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 2307,
+            "forecast": 10823,
+            "sales": 8516
+          },
+          "2": {
+            "difference": 129,
+            "forecast": 2002,
+            "sales": 1873
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 93,
+            "forecast": 378,
+            "sales": 285
+          },
+          "2": {
+            "difference": 14,
+            "forecast": 84,
+            "sales": 70
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 612,
+            "forecast": 7535,
+            "sales": 6923
+          },
+          "2": {
+            "difference": -18,
+            "forecast": 1679,
+            "sales": 1697
+          }
+        }
+      },
+      "10": {
+        "4": {
+          "1": {
+            "difference": 2914,
+            "forecast": 20252,
+            "sales": 17338
+          },
+          "2": {
+            "difference": 492,
+            "forecast": 5077,
+            "sales": 4585
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 568,
+            "forecast": 8325,
+            "sales": 7757
+          },
+          "2": {
+            "difference": 723,
+            "forecast": 2651,
+            "sales": 1928
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 1124,
+            "forecast": 10233,
+            "sales": 9109
+          },
+          "2": {
+            "difference": 703,
+            "forecast": 2639,
+            "sales": 1936
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 151,
+            "forecast": 340,
+            "sales": 189
+          },
+          "2": {
+            "difference": -43,
+            "forecast": 53,
+            "sales": 96
+          }
+        },
+        "8": {
+          "1": {
+            "difference": -892,
+            "forecast": 6310,
+            "sales": 7202
+          },
+          "2": {
+            "difference": 258,
+            "forecast": 1999,
+            "sales": 1741
+          }
+        }
+      },
+      "11": {
+        "4": {
+          "1": {
+            "difference": -809,
+            "forecast": 15333,
+            "sales": 16142
+          },
+          "2": {
+            "difference": 47,
+            "forecast": 4041,
+            "sales": 3994
+          }
+        },
+        "5": {
+          "1": {
+            "difference": -279,
+            "forecast": 6613,
+            "sales": 6892
+          },
+          "2": {
+            "difference": 231,
+            "forecast": 1918,
+            "sales": 1687
+          }
+        },
+        "6": {
+          "1": {
+            "difference": -137,
+            "forecast": 8173,
+            "sales": 8310
+          },
+          "2": {
+            "difference": 239,
+            "forecast": 2470,
+            "sales": 2231
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 183,
+            "forecast": 340,
+            "sales": 157
+          },
+          "2": {
+            "difference": -6,
+            "forecast": 33,
+            "sales": 39
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 1163,
+            "forecast": 8161,
+            "sales": 6998
+          },
+          "2": {
+            "difference": -297,
+            "forecast": 1719,
+            "sales": 2016
+          }
+        }
+      },
+      "12": {
+        "4": {
+          "1": {
+            "difference": 1179,
+            "forecast": 17676,
+            "sales": 16497
+          },
+          "2": {
+            "difference": -931,
+            "forecast": 3697,
+            "sales": 4628
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 167,
+            "forecast": 7957,
+            "sales": 7790
+          },
+          "2": {
+            "difference": 753,
+            "forecast": 2465,
+            "sales": 1712
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 1800,
+            "forecast": 10968,
+            "sales": 9168
+          },
+          "2": {
+            "difference": 874,
+            "forecast": 3286,
+            "sales": 2412
+          }
+        },
+        "7": {
+          "1": {
+            "difference": -145,
+            "forecast": 208,
+            "sales": 353
+          },
+          "2": {
+            "difference": -18,
+            "forecast": 18,
+            "sales": 36
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 1227,
+            "forecast": 8509,
+            "sales": 7282
+          },
+          "2": {
+            "difference": 47,
+            "forecast": 1806,
+            "sales": 1759
+          }
+        }
+      }
+    },
+    "2025": {
+      "1": {
+        "4": {
+          "1": {
+            "difference": 20858,
+            "forecast": 20858,
+            "sales": 0
+          },
+          "2": {
+            "difference": 5505,
+            "forecast": 5505,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 10263,
+            "forecast": 10263,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2902,
+            "forecast": 2902,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 11433,
+            "forecast": 11433,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2627,
+            "forecast": 2627,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 348,
+            "forecast": 348,
+            "sales": 0
+          },
+          "2": {
+            "difference": 51,
+            "forecast": 51,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 8496,
+            "forecast": 8496,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2624,
+            "forecast": 2624,
+            "sales": 0
+          }
+        }
+      },
+      "2": {
+        "4": {
+          "1": {
+            "difference": 18276,
+            "forecast": 18276,
+            "sales": 0
+          },
+          "2": {
+            "difference": 4476,
+            "forecast": 4476,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 8633,
+            "forecast": 8633,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2228,
+            "forecast": 2228,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 10220,
+            "forecast": 10220,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2620,
+            "forecast": 2620,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 233,
+            "forecast": 233,
+            "sales": 0
+          },
+          "2": {
+            "difference": 46,
+            "forecast": 46,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 7744,
+            "forecast": 7744,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2216,
+            "forecast": 2216,
+            "sales": 0
+          }
+        }
+      },
+      "3": {
+        "4": {
+          "1": {
+            "difference": 20864,
+            "forecast": 20864,
+            "sales": 0
+          },
+          "2": {
+            "difference": 5197,
+            "forecast": 5197,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 9028,
+            "forecast": 9028,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2249,
+            "forecast": 2249,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 12064,
+            "forecast": 12064,
+            "sales": 0
+          },
+          "2": {
+            "difference": 3141,
+            "forecast": 3141,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 238,
+            "forecast": 238,
+            "sales": 0
+          },
+          "2": {
+            "difference": 111,
+            "forecast": 111,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 8303,
+            "forecast": 8303,
+            "sales": 0
+          },
+          "2": {
+            "difference": 1896,
+            "forecast": 1896,
+            "sales": 0
+          }
+        }
+      },
+      "4": {
+        "4": {
+          "1": {
+            "difference": 20650,
+            "forecast": 20650,
+            "sales": 0
+          },
+          "2": {
+            "difference": 5151,
+            "forecast": 5151,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 8403,
+            "forecast": 8403,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2705,
+            "forecast": 2705,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 9052,
+            "forecast": 9052,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2751,
+            "forecast": 2751,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 121,
+            "forecast": 121,
+            "sales": 0
+          },
+          "2": {
+            "difference": 79,
+            "forecast": 79,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 9610,
+            "forecast": 9610,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2300,
+            "forecast": 2300,
+            "sales": 0
+          }
+        }
+      },
+      "5": {
+        "4": {
+          "1": {
+            "difference": 19871,
+            "forecast": 19871,
+            "sales": 0
+          },
+          "2": {
+            "difference": 4699,
+            "forecast": 4699,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 9980,
+            "forecast": 9980,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2074,
+            "forecast": 2074,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 11678,
+            "forecast": 11678,
+            "sales": 0
+          },
+          "2": {
+            "difference": 3604,
+            "forecast": 3604,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 228,
+            "forecast": 228,
+            "sales": 0
+          },
+          "2": {
+            "difference": 60,
+            "forecast": 60,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 8796,
+            "forecast": 8796,
+            "sales": 0
+          },
+          "2": {
+            "difference": 1954,
+            "forecast": 1954,
+            "sales": 0
+          }
+        }
+      },
+      "6": {
+        "4": {
+          "1": {
+            "difference": 22111,
+            "forecast": 22111,
+            "sales": 0
+          },
+          "2": {
+            "difference": 4759,
+            "forecast": 4759,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 9785,
+            "forecast": 9785,
+            "sales": 0
+          },
+          "2": {
+            "difference": 1951,
+            "forecast": 1951,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 9992,
+            "forecast": 9992,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2528,
+            "forecast": 2528,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 258,
+            "forecast": 258,
+            "sales": 0
+          },
+          "2": {
+            "difference": 73,
+            "forecast": 73,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 6929,
+            "forecast": 6929,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2379,
+            "forecast": 2379,
+            "sales": 0
+          }
+        }
+      },
+      "7": {
+        "4": {
+          "1": {
+            "difference": 21400,
+            "forecast": 21400,
+            "sales": 0
+          },
+          "2": {
+            "difference": 4876,
+            "forecast": 4876,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 8874,
+            "forecast": 8874,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2463,
+            "forecast": 2463,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 13284,
+            "forecast": 13284,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2461,
+            "forecast": 2461,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 256,
+            "forecast": 256,
+            "sales": 0
+          },
+          "2": {
+            "difference": 103,
+            "forecast": 103,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 8540,
+            "forecast": 8540,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2043,
+            "forecast": 2043,
+            "sales": 0
+          }
+        }
+      },
+      "8": {
+        "4": {
+          "1": {
+            "difference": 22814,
+            "forecast": 22814,
+            "sales": 0
+          },
+          "2": {
+            "difference": 5054,
+            "forecast": 5054,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 8714,
+            "forecast": 8714,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2738,
+            "forecast": 2738,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 11515,
+            "forecast": 11515,
+            "sales": 0
+          },
+          "2": {
+            "difference": 3090,
+            "forecast": 3090,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 291,
+            "forecast": 291,
+            "sales": 0
+          },
+          "2": {
+            "difference": 116,
+            "forecast": 116,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 8402,
+            "forecast": 8402,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2231,
+            "forecast": 2231,
+            "sales": 0
+          }
+        }
+      },
+      "9": {
+        "4": {
+          "1": {
+            "difference": 19479,
+            "forecast": 19479,
+            "sales": 0
+          },
+          "2": {
+            "difference": 4444,
+            "forecast": 4444,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 9270,
+            "forecast": 9270,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2384,
+            "forecast": 2384,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 11346,
+            "forecast": 11346,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2407,
+            "forecast": 2407,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 439,
+            "forecast": 439,
+            "sales": 0
+          },
+          "2": {
+            "difference": 88,
+            "forecast": 88,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 8494,
+            "forecast": 8494,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2407,
+            "forecast": 2407,
+            "sales": 0
+          }
+        }
+      },
+      "10": {
+        "4": {
+          "1": {
+            "difference": 21360,
+            "forecast": 21360,
+            "sales": 0
+          },
+          "2": {
+            "difference": 6245,
+            "forecast": 6245,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 9737,
+            "forecast": 9737,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2485,
+            "forecast": 2485,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 12280,
+            "forecast": 12280,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2309,
+            "forecast": 2309,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 377,
+            "forecast": 377,
+            "sales": 0
+          },
+          "2": {
+            "difference": 56,
+            "forecast": 56,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 8574,
+            "forecast": 8574,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2368,
+            "forecast": 2368,
+            "sales": 0
+          }
+        }
+      },
+      "11": {
+        "4": {
+          "1": {
+            "difference": 20950,
+            "forecast": 20950,
+            "sales": 0
+          },
+          "2": {
+            "difference": 6357,
+            "forecast": 6357,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 8417,
+            "forecast": 8417,
+            "sales": 0
+          },
+          "2": {
+            "difference": 1840,
+            "forecast": 1840,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 10320,
+            "forecast": 10320,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2968,
+            "forecast": 2968,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 466,
+            "forecast": 466,
+            "sales": 0
+          },
+          "2": {
+            "difference": 44,
+            "forecast": 44,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 9277,
+            "forecast": 9277,
+            "sales": 0
+          },
+          "2": {
+            "difference": 1988,
+            "forecast": 1988,
+            "sales": 0
+          }
+        }
+      },
+      "12": {
+        "4": {
+          "1": {
+            "difference": 20777,
+            "forecast": 20777,
+            "sales": 0
+          },
+          "2": {
+            "difference": 5009,
+            "forecast": 5009,
+            "sales": 0
+          }
+        },
+        "5": {
+          "1": {
+            "difference": 8933,
+            "forecast": 8933,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2444,
+            "forecast": 2444,
+            "sales": 0
+          }
+        },
+        "6": {
+          "1": {
+            "difference": 11819,
+            "forecast": 11819,
+            "sales": 0
+          },
+          "2": {
+            "difference": 3129,
+            "forecast": 3129,
+            "sales": 0
+          }
+        },
+        "7": {
+          "1": {
+            "difference": 318,
+            "forecast": 318,
+            "sales": 0
+          },
+          "2": {
+            "difference": 19,
+            "forecast": 19,
+            "sales": 0
+          }
+        },
+        "8": {
+          "1": {
+            "difference": 8373,
+            "forecast": 8373,
+            "sales": 0
+          },
+          "2": {
+            "difference": 2116,
+            "forecast": 2116,
+            "sales": 0
+          }
+        }
+      }
+    }
   }
 }

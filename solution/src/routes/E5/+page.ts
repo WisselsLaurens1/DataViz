@@ -3,7 +3,6 @@ import { formatPath } from "../../helpers";
 
 const preprocess = (dataDict: any) => {
   
-  
   return dataDict
     
 }
@@ -16,6 +15,6 @@ export const load = async ({ fetch }: any) => {
   const data = await response.json();
   console.log(data)
   return {
-    result: data["difference_between_forecast_and_sales"]
+    result: data["boxplot_inventory_per_plant"]
   };
 };
