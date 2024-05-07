@@ -6,12 +6,34 @@
   const r = 200;
 
   const start_alph = 90;
+  const l = 70;
+  const notSelectedColor = "lightgrey";
+  const positiveColor = "green"
+  const negativeColor = "red"
 
-  const l = 250;
+  const monthDeltaDegrees = 90;
+
+  const annotationState = {
+    Jan: false,
+    Feb: false,
+    Mar: false,
+    Apr: false,
+    May: false,
+    Jun: false,
+    Jul: false,
+    Aug: false,
+    Sep: false,
+    Oct: false,
+    Nov: false,
+    Dec: false,
+  };
+
+  let svg;
+  let selectedYear = "2022";
+  const axes = Array.from({ length: 10 }, (_, i) => i);
 
   function cosValue(angleInDegrees) {
     let angleInRadians = (angleInDegrees * Math.PI) / 180;
-    // Calculate cosine and sine
     return Math.cos(angleInRadians);
   }
 
@@ -24,10 +46,7 @@
     return start_alph + 30 * i;
   }
 
-  const monthDeltaDegrees = 90;
-
   function xPos(i) {
-    // - 10 to position in the middle
     return centerX + r * cosValue(angle(i) + monthDeltaDegrees);
   }
 
@@ -64,36 +83,75 @@
     return map[numberMonth];
   }
 
-  const annotationState = {
-    Jan: false,
-    Feb: false,
-    Mar: false,
-    Apr: false,
-    May: false,
-    Jun: false,
-    Jul: false,
-    Aug: false,
-    Sep: false,
-    Oct: false,
-    Nov: false,
-    Dec: false,
-  };
-
   function annotateOn(month) {
-    annotationState[annotationState] = true
+    annotationState[month] = true;
+    colorMap[selectedYear][month] 
+    Object.keys(colorMap[selectedYear]).forEach(month_ => {
+      if(month != month_){
+        colorMap[selectedYear][month_].selected = notSelectedColor
+      }
+    }) 
+  }
+  
+  function annotateOff(month) {
+    annotationState[month] = false;
+    colorMap[selectedYear][month] 
+    Object.keys(colorMap[selectedYear]).forEach(month_ => {
+      if(month != month_){
+        colorMap[selectedYear][month_].selected = colorMap[selectedYear][month_].color
+      }
+    }) 
   }
 
-  function annotateOff(month) {
-    annotationState[annotationState] = false
+  function setSelectedYear(newYear) {
+    selectedYear = newYear;
+  }
+
+
+
+
+  function getColor(targetColor, month) {
+    if (Object.values(annotationState).every((e) => e == false)) {
+      return targetColor;
+    }
+    let activeMonth = null;
+    console.log(annotationState)
+    annotationState.forEach(([key, value]) => {
+      console.log(key, value)
+      if(key == month && value == true){
+        return targetColor
+      }
+    });
+    // return notSelectedColor
+
   }
 
   export let data;
+  const colorMap = {}
+  Object.entries(data.result).forEach(([year, months]) => {
+    const monthsData = {}
+    Object.entries(months).forEach(([month, v]) => {
+      if(v >= 0){
+        monthsData[month] = {
+          "selected": negativeColor,
+          "color": negativeColor
+        }
+      }else{
+        monthsData[month] = {
+          "selected": positiveColor,
+          "color": positiveColor
+        }
+      }
+    })
+    colorMap[year] = monthsData
+  });
+
 </script>
 
 <h1>Figure: 1</h1>
 <Nav />
 
-<svg id="plot" width="1200" height="600">
+<svg id="plot" width="1200" height="600" bind:this={svg}>
   <circle
     cx={centerX}
     cy={centerY}
@@ -102,32 +160,34 @@
     stroke="black"
     stroke-width="3"
   />
-  <circle
-    cx={centerX}
-    cy={centerY}
-    r="2"
-    fill="black"
-    stroke="black"
-    stroke-width="3"
-  />
-  {#each Object.entries(sortByMonth(data.result["2022"])) as [month, daysDelta], i}
+  {#each axes as _, i}
+    <circle
+      cx={centerX}
+      cy={centerY}
+      r={r - 50 + 10 * i}
+      fill="none"
+      stroke="lightgrey"
+      stroke-width="1"
+    />
+  {/each}
+  {#each Object.entries(sortByMonth(data.result[selectedYear])) as [month, daysDelta], i}
     {#if daysDelta >= 0}
       <!-- svelte-ignore a11y-no-static-element-interactions -->
       <!-- svelte-ignore a11y-mouse-events-have-key-events -->
       <rect
         width="20"
         height={daysDelta * l}
-        fill="red"
+        fill={colorMap[selectedYear][month].selected}
         transform="translate({xPos(i)}, {yPos(i)}) rotate({30 * i +
           monthDeltaDegrees})"
-        on:mouseover={annotateOn}
-        on:mouseleave={annotateOff}
+        on:mouseover={(e) => annotateOn(month)}
+        on:mouseleave={(e) => annotateOff(month)}
       />
     {:else}
       <rect
         width="20"
         height={Math.abs(daysDelta * l)}
-        fill="green"
+        fill={colorMap[selectedYear][month].selected}
         transform="translate({xPos(i)}, {yPos(i)}) rotate({30 * i +
           180 +
           monthDeltaDegrees})"
@@ -136,13 +196,21 @@
     <text x={xPos(i)} y={yPos(i)} class="small">
       {getMonthInText(month)}
     </text>
-    <!-- {#if annotationState[month] == true}
-      <text x={mouse} y={yPos(i)} class="small">
-        {getMonthInText(month)}
+    <text x={centerX - 75} y={centerY} class="small">
+      Average difference in days:
+    </text>
+    {#if annotationState[month] == true}
+      <text x={centerX - 75} y={centerY + 30} class="small">
+        {daysDelta}
       </text>
-    {/if} -->
+    {/if}
   {/each}
 </svg>
+<div>
+  {#each Object.keys(sortByMonth(data.result)) as year}
+    <button on:click={() => setSelectedYear(year)}>{year}</button>
+  {/each}
+</div>
 
 <style>
   #plot {
@@ -150,4 +218,8 @@
     margin: auto;
     display: flex;
   }
+  /* svg rect:hover {
+    filter: drop-shadow(0px -3px 4px rgba(34, 34, 34, 0.4));
+    fill: rgb(149, 149, 149);
+  } */
 </style>
