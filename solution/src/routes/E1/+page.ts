@@ -2,6 +2,10 @@ import { formatPath } from "../../helpers";
 
 
 const preprocess = (dataDict: any) => {
+  
+  
+  return dataDict
+    
 }
 
 
@@ -10,5 +14,8 @@ export const load = async ({ fetch }: any) => {
 
   const response = await fetch(URL);
   const data = await response.json();
-  return data
+  console.log(data)
+  return {
+    result: data["difference_between_forecast_and_sales"]
+  };
 };
