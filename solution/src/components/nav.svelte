@@ -1,8 +1,5 @@
 <ul>
-    <a href="/">Home</a>
-    <a href="/Fig1">Fig 1</a>
-    <a href="/E1">E1</a>
-    <a href="/E2">E2</a>
-    <a href="/E5">E5</a>
-    <a href="/SalesPerPlant">Sales per plant</a>
+    <a href="/E1">1</a>
+    <a href="/E5">2</a>
+    <a href="/SalesPerPlant">3</a>
 </ul>

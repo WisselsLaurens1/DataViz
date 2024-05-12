@@ -1,5 +1,6 @@
 <script>
   import Nav from "../../components/nav.svelte";
+  import Title from "../../components/title.svelte";
 
   const centerX = 600;
   const centerY = 300;

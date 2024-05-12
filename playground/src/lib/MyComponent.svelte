@@ -1,1 +1,0 @@
-<h1>MyComponent</h1>
