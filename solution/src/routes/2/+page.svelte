@@ -157,7 +157,7 @@
 </script>
 
 <Nav />
-<Title title="Difference between dates of supply chain" />
+<Title title="Average difference between dates of supply chain" />
 
 <svg id="plot" width={plotWidth} height={plotHeight}>
   <defs>
@@ -305,6 +305,7 @@
 <!-- var selection -->
 <div id="controls">
   <div id="purchaseDataVarOptions">
+    <h3 style="margin-right: 15px">Purchase variables</h3>
     <div class="containers">
       <select
         bind:value={purchaseVar2}
@@ -317,7 +318,7 @@
         {/each}
       </select>
     </div>
-    <p style="margin-left: 15px; margin-right: 15px; text-align:center;">-</p>
+    <h3 style="margin-left: 15px; margin-right: 15px; text-align:center;">-</h3>
     <div class="containers">
       <select
         bind:value={purchaseVar1}
@@ -333,6 +334,7 @@
   </div>
 
   <div id="saleDataVarOptions">
+    <h3 style="margin-right: 15px">Sale variables</h3>
     <div>
       <select bind:value={salesVar2}>
         {#each saleVarOptions as option, i}
@@ -340,7 +342,7 @@
         {/each}
       </select>
     </div>
-    <p style="margin-left: 15px; margin-right: 15px;">-</p>
+    <h3 style="margin-left: 15px; margin-right: 15px;">-</h3>
     <div>
       <select bind:value={salesVar1}>
         {#each saleVarOptions as option, i}

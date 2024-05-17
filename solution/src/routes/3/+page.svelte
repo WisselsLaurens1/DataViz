@@ -113,7 +113,7 @@
 </script>
 
 <Nav />
-<Title title="Sales per distribution plant through time" />
+<Title title="Sales per distribution plant per month" />
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
@@ -161,24 +161,24 @@
     </text>
   {/each}
 
-  <text 
+  <text
     x="-350"
     y="60"
-    class="small" 
-    font-size="15" 
+    class="small"
+    font-size="15"
     font-weight="bold"
     transform="rotate(270, 64, 100)"
-  > 
-    Number of sales 
+  >
+    Number of sales
   </text>
 
   <text
-    x={(plotWidth / 2) - 20}
+    x={plotWidth / 2 - 20}
     y={plotHeight - marginBottom + marginTop + 110}
     class="small"
     font-weight="bold"
   >
-    Date
+    Month
   </text>
 
   <!-- grid -->

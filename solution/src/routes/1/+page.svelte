@@ -118,16 +118,16 @@
   };
 
   const updateThreshold = (e) => {
-    threshold = e.target.value
-  }
+    threshold = e.target.value;
+  };
 
-  let maxValue = 0
+  let maxValue = 0;
   const updateMaxValue = (v) => {
-    if(v > maxValue){
-      maxValue = v
+    if (v > maxValue) {
+      maxValue = v;
     }
-    return v
-  }
+    return v;
+  };
 
   export let data;
 </script>
@@ -149,7 +149,7 @@
               r={max(1000, obj.difference) * scale}
               cy={yMargin + getPlantInNumber(plant) * spacing}
               cx={xMargin + getMonthInNumber(month) * spacing}
-              fill="red"
+              fill="green"
               on:mouseover={function (event) {
                 selected_datapoint = obj;
                 setMousePosition(event);
@@ -165,7 +165,7 @@
               r={max(1000, -obj.difference) * scale}
               cy={yMargin + getPlantInNumber(plant) * spacing}
               cx={xMargin + getMonthInNumber(month) * spacing}
-              fill="green"
+              fill="red"
               on:mouseover={function (event) {
                 selected_datapoint = obj;
                 setMousePosition(event);
@@ -198,27 +198,37 @@
     </text>
   {/each}
 
+  <text
+    x="-180"
+    y="60"
+    class="small"
+    font-weight="bold"
+    transform="rotate(270, 64, 100)"
+  >
+    Distribution plant
+  </text>
+  <text x={width / 2 - 50} y="600" class="small" font-weight="bold">
+    Month
+  </text>
 
-    <text
-      x = -180
-      y = 60
-      class="small"
-      font-weight="bold"
-      transform="rotate(270, 64, 100)"
-    >
-      Distribution plant
-    </text>
-    <text
-      x = {(width / 2) - 50}
-      y = 600
-      class="small"
-      font-weight="bold"
-    >
-      Month
-    </text>
-
-
+  <!-- legend -->
+  <rect
+    width="185"
+    height="80"
+    fill="white"
+    stroke="lightgrey"
+    transform="translate({width - 190}, 550)"
+  />
+  <circle r="10" cy="{height - 100}" cx="{width - 160}" fill="red" />
+  <circle r="10" cy="{height - 70}" cx="{width - 160}" fill="green" />
+  <text x={width - 140} y="{height - 100}" class="small" font-weight="10">
+    Negative difference
+  </text>
+  <text x={width - 140} y="{height - 70}" class="small" font-weight="10">
+    Positive difference
+  </text>
 </svg>
+
 <div style="margin: auto; width:fit-content">
   <select name="year" id="year" on:change={handleChange}>
     <option value="2022">2022</option>
@@ -234,18 +244,22 @@
 </div>
 
 <div style="display: flex; margin:auto; width:fit-content">
+  <p style="margin-right: 20px">Threshold: </p>
   <p>{threshold}</p>
   <input
     style="margin-left: 30px"
     type="range"
     min="0"
-    max="{maxValue}"
+    max={maxValue}
     class="slider"
     id="myRange"
-    bind:value="{threshold}"
+    bind:value={threshold}
     on:input={updateThreshold}
   />
 </div>
+<svg width="100" height="100" style="display: flex; margin:auto">
+  <circle r={max(1000, threshold) * scale} cy="50" cx="50" fill="lightgrey" />
+</svg>
 
 {#if selected_datapoint != undefined}
   <div id="tooltip" style="left: {mouse_x + 10}px; top: {mouse_y - 10}px">
