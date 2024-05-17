@@ -13,7 +13,6 @@ app.use(cors({
 app.get("/data/:path", (req, res) => {
   let filePath = req.params.path;
   filePath = filePath.replace(/:/g, "/");
-  console.log(filePath)
 
   if (!filePath) {
     return res.status(400).json({ error: "File path is required" });

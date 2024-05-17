@@ -116,9 +116,7 @@
       return targetColor;
     }
     let activeMonth = null;
-    console.log(annotationState)
     annotationState.forEach(([key, value]) => {
-      console.log(key, value)
       if(key == month && value == true){
         return targetColor
       }

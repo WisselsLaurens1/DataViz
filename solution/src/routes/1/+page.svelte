@@ -11,6 +11,9 @@
   let width = 12 * spacing + xMargin + xMargin;
   let year = "2022";
   let selectedMaterial = "1";
+
+  let threshold = 0;
+
   export let selected_datapoint = undefined;
   function log_console(input) {
     console.log(input);
@@ -103,14 +106,10 @@
   // Define the function to be executed on change
   function handleChange(event) {
     year = event.target.value;
-    console.log("Selected value:", year);
-    // Add your logic here
   }
   // Define the function to be executed on change
   function handleChange2(event) {
     selectedMaterial = event.target.value;
-    console.log("Selected value:", selectedMaterial);
-    // Add your logic here
   }
   let mouse_x, mouse_y;
   const setMousePosition = function (event) {
@@ -118,48 +117,64 @@
     mouse_y = event.clientY;
   };
 
+  const updateThreshold = (e) => {
+    threshold = e.target.value
+  }
+
+  let maxValue = 0
+  const updateMaxValue = (v) => {
+    if(v > maxValue){
+      maxValue = v
+    }
+    return v
+  }
+
   export let data;
 </script>
 
 <Nav />
-<Title title="Difference between actual and forecasted sale " />
+<Title
+  title="Difference between actual and forecasted sales per year per product per distribution plant"
+/>
 
 <svg id="plot" {width} {height}>
   {#each Object.entries(sortByMonth(data.result[year])) as [month, plants]}
     {#each Object.entries(plants) as [plant, materials]}
       {#each Object.entries(materials) as [material, obj], i}
-        {#if obj.difference >= 0 && material == selectedMaterial}
-          <!-- svelte-ignore a11y-no-static-element-interactions -->
-          <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-          <circle
-            r={max(1000, obj.difference) * scale}
-            cy={yMargin + getPlantInNumber(plant) * spacing}
-            cx={xMargin + getMonthInNumber(month) * spacing}
-            fill="red"
-            on:mouseover={function (event) {
-              selected_datapoint = obj;
-              setMousePosition(event);
-            }}
-            on:mouseout={function () {
-              selected_datapoint = undefined;
-            }}
-          />
-        {:else if obj.difference <= 0 && material == selectedMaterial}
-          <!-- svelte-ignore a11y-no-static-element-interactions -->
-          <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-          <circle
-            r={max(1000, -obj.difference) * scale}
-            cy={yMargin + getPlantInNumber(plant) * spacing}
-            cx={xMargin + getMonthInNumber(month) * spacing}
-            fill="green"
-            on:mouseover={function (event) {
-              selected_datapoint = obj;
-              setMousePosition(event);
-            }}
-            on:mouseout={function () {
-              selected_datapoint = undefined;
-            }}
-          />
+        {#if updateMaxValue(Math.abs(obj.difference)) >= threshold}
+          {#if obj.difference >= 0 && material == selectedMaterial}
+            <!-- svelte-ignore a11y-no-static-element-interactions -->
+            <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+            <circle
+              r={max(1000, obj.difference) * scale}
+              cy={yMargin + getPlantInNumber(plant) * spacing}
+              cx={xMargin + getMonthInNumber(month) * spacing}
+              fill="red"
+              on:mouseover={function (event) {
+                selected_datapoint = obj;
+                setMousePosition(event);
+              }}
+              on:mouseout={function () {
+                selected_datapoint = undefined;
+              }}
+            />
+          {:else if obj.difference <= 0 && material == selectedMaterial}
+            <!-- svelte-ignore a11y-no-static-element-interactions -->
+            <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+            <circle
+              r={max(1000, -obj.difference) * scale}
+              cy={yMargin + getPlantInNumber(plant) * spacing}
+              cx={xMargin + getMonthInNumber(month) * spacing}
+              fill="green"
+              on:mouseover={function (event) {
+                selected_datapoint = obj;
+                setMousePosition(event);
+              }}
+              on:mouseout={function () {
+                selected_datapoint = undefined;
+              }}
+            />
+          {/if}
         {/if}
       {/each}
     {/each}
@@ -182,6 +197,27 @@
       {getMonthInText(i + 1)}
     </text>
   {/each}
+
+
+    <text
+      x = -180
+      y = 60
+      class="small"
+      font-weight="bold"
+      transform="rotate(270, 64, 100)"
+    >
+      Distribution plant
+    </text>
+    <text
+      x = {(width / 2) - 50}
+      y = 600
+      class="small"
+      font-weight="bold"
+    >
+      Month
+    </text>
+
+
 </svg>
 <div style="margin: auto; width:fit-content">
   <select name="year" id="year" on:change={handleChange}>
@@ -195,6 +231,20 @@
     <option value="1">EV Car Battery</option>
     <option value="2">Home Battery</option>
   </select>
+</div>
+
+<div style="display: flex; margin:auto; width:fit-content">
+  <p>{threshold}</p>
+  <input
+    style="margin-left: 30px"
+    type="range"
+    min="0"
+    max="{maxValue}"
+    class="slider"
+    id="myRange"
+    bind:value="{threshold}"
+    on:input={updateThreshold}
+  />
 </div>
 
 {#if selected_datapoint != undefined}

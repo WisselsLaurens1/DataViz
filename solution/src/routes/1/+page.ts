@@ -14,7 +14,6 @@ export const load = async ({ fetch }: any) => {
 
   const response = await fetch(URL);
   const data = await response.json();
-  console.log(data)
   return {
     result: data["difference_between_forecast_and_sales"]
   };

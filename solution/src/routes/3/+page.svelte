@@ -3,10 +3,7 @@
   import Title from "../../components/title.svelte";
   export let data;
 
-  console.log(data);
-
   const dates = Object.keys(data[Object.keys(data)[0]]);
-  console.log(dates);
 
   let plot;
 
@@ -34,6 +31,20 @@
     "6": "orange",
     "7": "purple",
     "8": "green",
+  };
+
+  const plant_key_map = {
+    1001: "ANT1",
+    1002: "WRO1",
+    1003: "LYO1",
+    1: "ANT1",
+    2: "WRO1",
+    3: "LYO1",
+    4: "ANT2",
+    5: "WRO2",
+    6: "LYO2",
+    7: "BIR2",
+    8: "GOT2",
   };
 
   function xCord(i) {
@@ -68,7 +79,6 @@
       });
     });
   });
-  console.log(coords);
 
   function log(v) {
     console.log(v);
@@ -151,27 +161,22 @@
     </text>
   {/each}
 
-  <text
-    x={20}
-    y={30}
-    class="small"
-    font-size="15"
-  >
-    Number
+  <text 
+    x="-350"
+    y="60"
+    class="small" 
+    font-size="15" 
+    font-weight="bold"
+    transform="rotate(270, 64, 100)"
+  > 
+    Number of sales 
   </text>
+
   <text
-    x={20}
-    y={45}
+    x={(plotWidth / 2) - 20}
+    y={plotHeight - marginBottom + marginTop + 110}
     class="small"
-    font-size="15"
-  >
-    of sales
-  </text>
-  <text
-    x={40}
-    y={plotHeight - marginBottom + marginTop}
-    class="small"
-    font-size="15"
+    font-weight="bold"
   >
     Date
   </text>
@@ -208,13 +213,13 @@
     x1={xLin}
     y1={0}
     x2={xLin}
-    y2={plotHeight}
+    y2={plotHeight - marginBottom + marginTop}
     style="stroke:lightgrey;stroke-width:2"
   />
 
   <!-- legend -->
   <rect
-    width="80"
+    width="120"
     height={120}
     fill="white"
     stroke="lightgrey"
@@ -231,10 +236,10 @@
       class="small"
       style="fill:{colorMap[plantKey]}"
     >
-      {plantKey}:
+      {plant_key_map[plantKey]}:
     </text>
     <text
-      x={mouseX + 50}
+      x={mouseX + 85}
       y={mouseY + 40 + 15 * i}
       class="small"
       style="fill:{colorMap[plantKey]}"

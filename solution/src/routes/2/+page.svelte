@@ -123,8 +123,7 @@
     return avg;
   }
 
-  export let data
-  console.log(data);
+  export let data;
 
   const salesDataInDays = data.sales_data_in_days;
   const purchaseDataInDays = data.purchases_data_in_days;
@@ -149,9 +148,8 @@
     });
 
     Object.keys(newAvgs).forEach((route) => {
-      newAvgs[route]["width"] = newAvgs[route]["avg"]
+      newAvgs[route]["width"] = newAvgs[route]["avg"];
     });
-    console.log(newAvgs);
     return newAvgs;
   }
 
@@ -159,7 +157,7 @@
 </script>
 
 <Nav />
-<Title title="Difference between dates of supply chain"/>
+<Title title="Difference between dates of supply chain" />
 
 <svg id="plot" width={plotWidth} height={plotHeight}>
   <defs>
@@ -271,6 +269,37 @@
       ) / 100}
     </text>
   {/each}
+
+  <text
+    x="40"
+    y="60"
+    class="small"
+    font-weight="bold"
+    font-size="12"
+    transform="rotate(270, 64, 100)"
+  >
+    Production plant
+  </text>
+  <text
+    x="-130"
+    y="60"
+    class="small"
+    font-weight="bold"
+    font-size="12"
+    transform="rotate(270, 64, 100)"
+  >
+    Distribution plant
+  </text>
+  <text
+    x="-350"
+    y="60"
+    class="small"
+    font-weight="bold"
+    font-size="12"
+    transform="rotate(270, 64, 100)"
+  >
+    Customer section
+  </text>
 </svg>
 
 <!-- var selection -->
